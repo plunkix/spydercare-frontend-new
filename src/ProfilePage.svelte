@@ -1,7 +1,8 @@
 <script>
   import { onMount } from 'svelte';
   import { navigate } from 'svelte-routing';
-  import { accessToken, backendUrl, userProfile } from './App.svelte';
+  import { accessToken, backendUrl, userProfile } from './stores.js';
+  
 
   let token = '';
   let oldEmail = '';
