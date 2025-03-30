@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { navigate } from 'svelte-routing';
-  import { accessToken } from './App.svelte';
+  import { accessToken } from './stores.js';  // Updated import
 
   let showAuthModal = false;
 
