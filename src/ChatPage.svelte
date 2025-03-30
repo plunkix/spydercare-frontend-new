@@ -2,7 +2,7 @@
   import { onMount, tick } from 'svelte';
   import { navigate } from 'svelte-routing';
   import { writable } from 'svelte/store';
-  import { accessToken, userProfile, backendUrl } from './stores.svelte'; // Import all from App.svelte
+  import { accessToken, userProfile, backendUrl } from './stores.js'; 
 
   let prompt = '';
   let chatHistory = [];
