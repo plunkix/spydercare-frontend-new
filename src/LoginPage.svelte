@@ -1,7 +1,7 @@
 <script>
   import { createEventDispatcher } from 'svelte';
   import { navigate } from 'svelte-routing';
-  import { accessToken, backendUrl } from './App.svelte';
+  import { accessToken, backendUrl } from './stores.js';
   
   const dispatch = createEventDispatcher();
 
